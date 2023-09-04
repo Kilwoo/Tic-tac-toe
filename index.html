@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">TIC TAC TOE</div>
+        <div class="detail">
+            <span>Game starts by just Tap on box</span>
+            <span>First Player starts as <span id="pl-x">Player X</span></span>
+            <span>And</span>
+            <span>Second Player as <span id="pl-o">Player O</span></span>
+        </div>
+        <div class="Tic-body">
+            <span class="F win">
+            <input type="text" class="feild" id="F1" readonly onclick="winner(); F1();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F2" readonly onclick="winner(); F2();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F3" readonly onclick="winner(); F3();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F4" readonly onclick="winner(); F4();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F5" readonly onclick="winner(); F5();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F6" readonly onclick="winner(); F6();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F7" readonly onclick="winner(); F7();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F8" readonly onclick="winner(); F8();">
+            </span>
+            <span class="F win">
+            <input type="text" class="feild" id="F9" readonly onclick="winner(); F9();">
+            </span>
+        </div>
+        <div class="reset">
+            <button class="reset-btn" id="btn">Reset</button>
+            <div class="pl-turn" id="Pl-turn"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
